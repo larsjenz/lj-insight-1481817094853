@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: lj-insight
+  host: lj-insight
+  disk_quota: 1024M
+  services:
+  - lj-insight-personality_insights
